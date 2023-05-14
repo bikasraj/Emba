@@ -11,6 +11,9 @@ import { HeaderComponent } from './components/header/header.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { ShopComponent } from './components/shop/shop.component';
 import { LatestComponent } from './components/latest/latest.component';
+import { LoginComponent } from './components/login/login.component';
+import { ProductComponent } from './components/product/product.component';
+import { AdminComponent } from './components/admin/admin.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { LatestComponent } from './components/latest/latest.component';
     HeaderComponent,
     ContactComponent,
     ShopComponent,
-    LatestComponent
+    LatestComponent,
+    LoginComponent,
+    ProductComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,

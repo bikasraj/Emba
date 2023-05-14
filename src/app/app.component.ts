@@ -4,17 +4,6 @@ import { Router } from '@angular/router';
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  template:
-  `<nav>
-  <a *ngFor="let nav of navs" 
-      [routerLink]="nav.url" 
-       routerLinkActive="active"
-      [routerLinkActiveOptions]="{exact:true}" >
-      {{nav.content}}
- </a>
-</nav>
-<router-outlet></router-outlet> `
-
 })
 export class AppComponent {
   title = 'Emba';
